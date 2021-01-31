@@ -6,8 +6,6 @@
 import sys, json
 
 from pogodata import PogoData
-help = 'pogodata-cli.py move|pokemon <name>'
-outputText = ''
 
 def main(argv):
    if len(argv) < 1 :
